@@ -1,7 +1,109 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="XATZIXRISTOS - Premium Tiles and Sanitary Ware">
+    <title>XATZIXRISTOS - Premium Tiles and Sanitary Ware</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .header {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #e9ecef;
+        }
+        .header h1 {
+            font-family: 'Lora', serif;
+            margin: 0;
+            color: #2c3e50;
+        }
+        .nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #2c3e50;
+            font-weight: bold;
+        }
+        .main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .product {
+            border: 1px solid #e9ecef;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 20px;
+            width: calc(33% - 40px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .product img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .product h2 {
+            font-family: 'Lora', serif;
+            font-size: 1.5em;
+            color: #2c3e50;
+        }
+        .product p {
+            color: #666;
+        }
+        .footer {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            border-top: 2px solid #e9ecef;
+        }
+        .footer p {
+            margin: 0;
+            color: #666;
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <header class="header">
+        <h1>XATZIXRISTOS</h1>
+        <p>Premium Tiles and Sanitary Ware</p>
+    </header>
+    <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main class="main">
+        <div class="product">
+            <img src="tiles1.jpg" alt="Tiles Collection">
+            <h2>Tiles Collection</h2>
+            <p>Explore our wide range of premium tiles.</p>
+        </div>
+        <div class="product">
+            <img src="sanitary1.jpg" alt="Sanitary Ware">
+            <h2>Sanitary Ware</h2>
+            <p>High-quality sanitary ware for your needs.</p>
+        </div>
+        <div class="product">
+            <img src="designer1.jpg" alt="Designer Series">
+            <h2>Designer Series</h2>
+            <p>Exclusive designer series for your home.</p>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2025 XATZIXRISTOS. All rights reserved.</p>
+    </footer>
 </body>
 </html>
